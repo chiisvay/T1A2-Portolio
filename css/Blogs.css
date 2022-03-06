@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+    background-color: hsl(26, 83%, 82%);
+}
+article { 
+    display: flex;
+    flex-direction: column;
+}
+article, nav, div, section {
+    padding: .5rem;
+    width: 100%;    
+} 
+div { 
+    font-size: 1.1rem;
+    display: flex;
+    padding: 30px 10px 30px 10px;
+    justify-content: center;
+    align-items: center;
+}
+section {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center
+}
+header {
+    font-size: 2.5vh;
+}
+h5 {
+    font-size: .6rem;
+}
+p {
+    font-size: 1.8vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+}
+nav ul {
+    margin: 10px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+nav ul li {
+    padding: 0.5rem;
+    font-family:  Arial, Helvetica, sans-serif blue;
+}
+@media only screen and (min-width: 400px) {
+    div { font-size: 34px;}
+    header {font-size: 3.5vh;}
+    h5 { font-size: 1rem; }
+    p {font-size: 1.5rem;} 
+    nav ul li {font-size: 1.3rem;
+    }
+}
+ @media only screen and (min-width :900px) {
+    div { font-size: 50px;}
+    header {font-size: 6vh;}
+    h5 { font-size: 1.5rem;}
+    p {font-size: 1.8rem;} 
+    nav ul li {font-size: 1.8rem;}
+ }
